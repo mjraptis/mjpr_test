@@ -1,0 +1,7 @@
+if(input.Cancel_Event == true && Event_Status != "Canceled") {
+	input.Event_Status = "Canceled";
+} else if(input.Event_Status == "Canceled"){
+	input.Cancel_Event = true;
+} else {
+	//do nothing
+}
